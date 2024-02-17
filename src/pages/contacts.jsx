@@ -1,0 +1,51 @@
+import React from "react";
+
+const Contacts = () => {
+  return (
+    <main className=" px-12 py-8 text-xl ">
+      <div className="py-8">
+        <h1 className="mb-10 text-3xl font-bold">Контакты</h1>
+      </div>
+      <div className="flex justify-between max-md:flex-col max-md:items-center max-md:gap-8 mb-4 border-b border-cyan-700 py-4">
+        <div className="flex flex-col gap-2 justify-center ">
+          <div className="flex flex-col gap-4">
+            <span className="font-bold">Телефон:</span> +1 (234)
+            567-89-01
+          </div>
+          <div className="flex flex-col gap-4">
+            <span className="font-bold">Email:</span> info@monitoring.ru
+          </div>
+          <div className="flex flex-col gap-4">
+            <span className="font-bold">Адрес:</span> г.Краснодар
+            ул.Красная 21/5 123004
+          </div>
+        </div>
+        <img
+          src="../assets/images/contacts.jpeg"
+          className="w-[60%] max-md:w-[90%] h-auto rounded-md border border-black"
+          alt="contacts"
+        />
+      </div>
+      <p className="md:max-w-[60%] mb-4">
+        Наши специалисты готовы предложить вам профессиональные услуги
+        по установке видеонаблюдения. Мы обеспечим надежную защиту
+        вашего дома или бизнеса, установив качественное оборудование и
+        настроив его под ваши потребности.
+      </p>
+      <p className="md:max-w-[60%] mb-4">
+        Наш опытный персонал поможет выбрать оптимальное решение для
+        вашего объекта, учитывая все особенности и требования. Мы
+        гарантируем качественный монтаж и настройку системы
+        видеонаблюдения, а также обучим вас работе с ней.
+      </p>
+      <p className="md:max-w-[60%]">
+        Свяжитесь с нами прямо сейчас, чтобы обсудить детали вашего
+        проекта и получить консультацию от профессионалов. Вместе мы
+        создадим надежную систему безопасности, которая будет работать
+        для вас 24/7.
+      </p>
+    </main>
+  );
+};
+
+export default Contacts;
