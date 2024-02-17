@@ -36,3 +36,34 @@ export const advantages = [
     icon: "../assets/icons/eye.png",
   },
 ];
+
+export const solutions = [
+  {
+    image: "../assets/images/sol1.png",
+    head: "Для частного дома",
+    first: "пресечения порчи и кражи имущества",
+    second: "видеозапись в любое время и погоду",
+    price: "от 5500",
+  },
+  {
+    image: "../assets/images/sol2.jpeg",
+    head: "Для офиса",
+    first: "контроль качества работы персонала",
+    second: "повышает продуктивность сотрудников",
+    price: "от 7000",
+  },
+  {
+    image: "../assets/images/sol3.png",
+    head: "Для квартиры",
+    first: "контроль за детьми онлайн в режиме реального времени",
+    second: "автоматическое распознавание неизвестных лиц",
+    price: "от 4000",
+  },
+  {
+    image: "../assets/images/sol4.png",
+    head: "Для промышленых помещений",
+    first: "контроль за работой в помещении, идентификация лиц",
+    second: "разбор неоднозначных ситуаций",
+    price: "от 9000",
+  },
+];

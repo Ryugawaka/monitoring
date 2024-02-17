@@ -20,29 +20,44 @@ const CalculatorSection = () => {
             id="hd"
             defaultChecked
             onChange={() => setQuality(1)}
-            className="mr-4"
+            className="mr-4 peer hidden"
           />
-          <label htmlFor="hd">HD</label>
+          <label
+            htmlFor="hd"
+            className="px-4 py-2 rounded-lg cursor-pointer peer-checked:bg-orange-500 peer-checked:text-white"
+          >
+            HD
+          </label>
         </span>
         <span>
           <input
             type="radio"
             name="quality"
             id="fhd"
-            onChange={() => setQuality(2)}
-            className="mr-4 "
+            onChange={() => setQuality(1.5)}
+            className="mr-4 peer hidden"
           />
-          <label htmlFor="fhd">Full-HD</label>
+          <label
+            htmlFor="fhd"
+            className="px-4 py-2 rounded-lg cursor-pointer peer-checked:bg-orange-500 peer-checked:text-white"
+          >
+            Full-HD
+          </label>
         </span>
         <span>
           <input
             type="radio"
             name="quality"
             id="4k"
-            onChange={() => setQuality(3)}
-            className="mr-4"
+            onChange={() => setQuality(2.5)}
+            className="mr-4 peer hidden"
           />
-          <label htmlFor="4k">4k</label>
+          <label
+            htmlFor="4k"
+            className="px-4 py-2 rounded-lg cursor-pointer peer-checked:bg-orange-500 peer-checked:text-white"
+          >
+            4k
+          </label>
         </span>
       </div>
       <h3 className="mb-4 text-[18px]">Количество камер</h3>
@@ -67,7 +82,7 @@ const CalculatorSection = () => {
             +
           </button>
         </div>
-        <p className="tracking-wide	font-semibold text-blue-800 text-[24px]">
+        <p className="tracking-wide	font-semibold text-cyan-800 text-[28px]">
           ~{insideCameras * 1600 * quality} ₽
         </p>
       </div>
