@@ -22,7 +22,7 @@ const Contacts = () => {
         </div>
         <img
           src="../assets/images/contacts.jpeg"
-          className="w-[60%] max-md:w-[90%] h-auto rounded-md border border-black"
+          className="w-[60%] max-md:w-[90%] h-auto rounded-md border self-center border-black"
           alt="contacts"
         />
       </div>

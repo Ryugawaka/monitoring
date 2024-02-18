@@ -2,6 +2,26 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Список для установки :
+
+https://nodejs.org/en node js
+
+### порядок запуска после клонирования проекта:
+
+`npm install` для установки зависимостей  
+
+`npm start` для запуска проекта
+
+## список используемых библиотек:
+
+tailwind - для стилизации компонентов внутри не используя СSS
+
+react-hook-form для работы с формами
+
+react-router-dom - для роутинга/создания страниц
+
+используемые изображения находятся по пути public/assets/
+
 ## Available Scripts
 
 In the project directory, you can run:
