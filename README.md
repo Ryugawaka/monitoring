@@ -16,8 +16,6 @@ https://nodejs.org/en node js
 
 tailwind - для стилизации компонентов внутри не используя СSS
 
-react-hook-form для работы с формами
-
 react-router-dom - для роутинга/создания страниц
 
 используемые изображения находятся по пути public/assets/
